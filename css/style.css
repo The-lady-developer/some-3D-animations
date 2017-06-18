@@ -1,0 +1,32 @@
+html {
+		overflow: hidden;
+	}
+	body {
+		margin: 0px;
+		padding: 0px;
+		background: #000;
+		width: 100%;
+		height: 100%;
+		cursor: default;
+	}
+  #frame {
+		position:absolute;
+		border-top: #111 solid 16vh;
+		border-bottom: #111 solid 16vh;
+		height: 68vh;
+		width: 100vw;
+		background:#000;
+	}
+	#screen {
+		position:absolute;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		user-select: none;
+		transform: translate3d(0, 0, 0);
+	}
+	#screen img {
+		position: absolute;
+		visibility: hidden;
+		pointer-events: none;
+	}
